@@ -1,0 +1,33 @@
+.my_background {
+  background: navy;
+  background-blend-mode: darken;
+  background-size: cover;
+}
+.logo {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.logo img {
+  width: 100px;
+  border-radius: 25px;
+  height: 50px;
+  float: left;
+  padding: 1px;
+}
+
+.appointment {
+  transition-duration: 0.4s;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  min-height: 30px;
+  min-width: 120px;
+
+}
+
+.appointment:hover {
+  background-color: whitesmoke; /* Grey */
+  color: black;
+}

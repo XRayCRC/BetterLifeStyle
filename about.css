@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+.about {
+  width: 100%;
+  padding: 78px 0px;
+  background-color: white;
+}
+.about img {
+  height: auto;
+  width: 420px;
+}
+.about-text {
+  width: 550px;
+}
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-text h1 {
+  color: black;
+  font-size: 80px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.about-text h5 {
+  color: red;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+.about-text p {
+  color: navy;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+/*button{
+    background: red;
+    color:white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 40px;
+    transition: .4s;
+}
+button:hover{
+    background: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}*/
+@media only screen and (max-width: 700px) {
+  .about img {
+    height: auto;
+    width: 250px;
+    position: absolute;
+    top: 620px;
+    left: 30px;
+  }
+  .about-text h1 {
+    color: black;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    margin-left: 100px;
+  }
+  .about-text h5 {
+    color: red;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+    margin-left: 100px;
+  }
+  .about-text p {
+    color: navy;
+    letter-spacing: 0px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-right: 200px;
+    margin-left: 105px;
+  }
+  button {
+    background: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 40px;
+    transition: 0.4s;
+    margin-left: 100px;
+  }
+}
+.appointment {
+  transition-duration: 0.4s;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  min-height: 30px;
+  min-width: 120px;
+
+}
+
+.appointment:hover {
+  background-color: whitesmoke; /* Grey */
+  color: black;
+}
+
